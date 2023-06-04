@@ -67,18 +67,33 @@
     .title {
         color: #002F40;
         text-align: center;
-        font-size: 10vw;
+        font-size: 7vw;
     }
     .subtitle {
         color: #52b0cf;
         font-weight: 310;
         text-align: center;
-        font-size: 6.8vw;
+        font-size: 5.5vw;
     }
-  }
+    .card {
+        width: 40vh;
+        min-height: 60vh;
+    }
+    .title-card {
+        font-size: 6.5vw;
+        font-weight: 400;
+    }
+    .subtitle-card {
+        font-weight: 250;
+        font-size: 4.5vw;
+    }
+    .text {
+        font-weight: 350;
+        font-size: 4.5vw;
+    }
   
-  /* Estilos para telas médias (Tablets e dispositivos com largura intermediária) */
-  @media (min-width: 481px) and (max-width: 768px) {
+/* Estilos para telas médias (Tablets e dispositivos com largura intermediária) */
+@media (min-width: 481px) and (max-width: 768px) {
     /* Estilos específicos para telas médias */
     .title {
         color: #002F40;
@@ -91,17 +106,51 @@
         text-align: center;
         font-size: 5.5vw;
     }
-  }
-  
-  /* Estilos para telas grandes (Desktops e laptops) */
-  @media (min-width: 769px) and (max-width: 1024px) {
+    /* .card {
+        width: 20vh;
+        min-height: 60vh;
+        margin: 20%;
+    }
+    .title-card {
+        font-size: 6.5vw;
+        font-weight: 400;
+    }
+    .subtitle-card {
+        font-weight: 250;
+        font-size: 10vw;
+    }
+    .text {
+        font-weight: 350;
+        font-size: 10vw;
+    } */
+}
+
+/* Estilos para telas grandes (Desktops e laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
     /* Estilos específicos para telas grandes */
-  }
-  
-  /* Estilos para telas extra grandes (Desktops grandes e monitores de alta resolução) */
-  @media (min-width: 1025px) {
+    /* .card {
+        width: 20vh;
+        min-height: 60vh;
+        margin: 20%;
+    }
+    .title-card {
+        font-size: 6.5vw;
+        font-weight: 400;
+    }
+    .subtitle-card {
+        font-weight: 250;
+        font-size: 7.5vw;
+    }
+    .text {
+        font-weight: 350;
+        font-size: 10vw;
+    } */
+}
+
+/* Estilos para telas extra grandes (Desktops grandes e monitores de alta resolução) */
+@media (min-width: 1025px) {
     /* Estilos específicos para telas extra grandes */
-  }
+}
   
   /* Estilos gerais para o layout do template (Desktop padrão) */
   /* Esses estilos serão aplicados em todas as telas, incluindo desktops */
