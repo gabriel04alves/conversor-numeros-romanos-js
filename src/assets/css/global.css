@@ -10,4 +10,84 @@
     display: none;
   }
 
+.title {
+    color: #002F40;
+
+}
+.subtitle {
+    color: #52b0cf;
+    font-weight: 310;
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 60vh;
+    min-height: 65vh;
+   
+}
+.title-card {
+    text-align: center;
+    color: #F7F7F7;
+    font-weight: 390;
+}
+.subtitle-card {
+    text-align: center;
+    color: #b1b1b1;
+    font-weight: 250;
+    font-size: 1.3vw;
+}
+.text {
+    color: #F7F7F7;
+    font-weight: 350;
+    font-size: 1.2vw;
+}
+
+
+/* Estilos para telas pequenas (Smartphones) */
+@media (max-width: 480px) {
+    /* Estilos específicos para telas pequenas */
+    .title {
+        color: #002F40;
+        text-align: center;
+        font-size: 10vw;
+    }
+    .subtitle {
+        color: #52b0cf;
+        font-weight: 310;
+        text-align: center;
+        font-size: 6.8vw;
+    }
+  }
+  
+  /* Estilos para telas médias (Tablets e dispositivos com largura intermediária) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* Estilos específicos para telas médias */
+    .title {
+        color: #002F40;
+        text-align: center;
+        font-size: 7vw;
+    }
+    .subtitle {
+        color: #52b0cf;
+        font-weight: 310;
+        text-align: center;
+        font-size: 5.5vw;
+    }
+  }
+  
+  /* Estilos para telas grandes (Desktops e laptops) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos específicos para telas grandes */
+  }
+  
+  /* Estilos para telas extra grandes (Desktops grandes e monitores de alta resolução) */
+  @media (min-width: 1025px) {
+    /* Estilos específicos para telas extra grandes */
+  }
+  
+  /* Estilos gerais para o layout do template (Desktop padrão) */
+  /* Esses estilos serão aplicados em todas as telas, incluindo desktops */
+  
   /* colors: #002F40 */

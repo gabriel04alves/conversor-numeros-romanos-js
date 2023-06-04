@@ -13,7 +13,35 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <div class="header p-4">
+        <h1 class="title d-flex justify-content-center">Bem vindo ao DecToRom Convert</h1>
+        <h2 class="subtitle d-flex justify-content-center">Aqui você pode converter número romanos para decimais e vice-versa!</h2>
+    </div>
+    <div class="content mt-4">
+        <div class="card p-4" style="background-color: #002F40;">
+            <h1 class="title-card d-flex justify-content-center">Vamos lá!</h1>
+            <h2 class="subtitle-card d-flex justify-content-center">Basta digitar o número na opção que deseja e converter!</h2>
+            <div class="labels mt-4">
+                <div class="label1">
+                    <span class="text">Número decimal: </span>
+                    <div class="line-dec d-flex flex-row gap-3">
+                        <input type="text" class="form-control form" style="width: 70%;">
+                        <button class="btn-dec" style="width: 30%;">Converter</button>
+                    </div>    
+                </div>
+                <div class="label2 mt-3">
+                    <span class="text">Número romano: </span>
+                    <div class="line-dec d-flex flex-row gap-3">
+                        <input type="text" class="form-control form" style="width: 70%;">
+                        <button class="btn-dec" style="width: 30%;">Converter</button>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+    <!-- --- -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
