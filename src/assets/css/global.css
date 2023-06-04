@@ -24,7 +24,7 @@
 }
 .card {
     width: 60vh;
-    min-height: 65vh;
+    min-height: 60vh;
    
 }
 .title-card {
@@ -43,7 +43,23 @@
     font-weight: 350;
     font-size: 1.2vw;
 }
+/* footer */
+.footer {
+    border-top: 0.25em solid;
+    border-image: linear-gradient(60deg, #8a2be2, #52b0cf) 1 1;
+    color: #F4F4F4; 
+    position: fixed; 
+    bottom: 0; 
+    height: 8%;
+    width: 100%; 
+    background-color: #002F40;
+}
 
+.textFooter {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: 300;
+}
 
 /* Estilos para telas pequenas (Smartphones) */
 @media (max-width: 480px) {
