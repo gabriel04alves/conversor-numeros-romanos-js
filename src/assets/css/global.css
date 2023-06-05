@@ -43,6 +43,39 @@
     font-weight: 350;
     font-size: 1.2vw;
 }
+.button {
+    appearance: none;
+    background-color: transparent;
+    border: 0.12em solid #F7F7F7;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #F7F7F7;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    font-size: 1vw;
+    font-weight: 400;
+   }
+   .button:hover {
+    color: #002F40;
+    background-color: #b1b1b1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   .button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+   .button:disabled {
+    pointer-events: none;
+   }
+
 /* footer */
 .footer {
     border-top: 0.25em solid;
@@ -91,6 +124,11 @@
         font-weight: 350;
         font-size: 4.5vw;
     }
+    .text-btn {
+        font-weight: 350;
+        font-size: 4vw;
+    }
+}
   
 /* Estilos para telas médias (Tablets e dispositivos com largura intermediária) */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -106,10 +144,9 @@
         text-align: center;
         font-size: 5.5vw;
     }
-    /* .card {
-        width: 20vh;
+    .card {
+        width: 40vh;
         min-height: 60vh;
-        margin: 20%;
     }
     .title-card {
         font-size: 6.5vw;
@@ -117,42 +154,43 @@
     }
     .subtitle-card {
         font-weight: 250;
-        font-size: 10vw;
+        font-size: 4.5vw;
     }
     .text {
         font-weight: 350;
-        font-size: 10vw;
-    } */
+        font-size: 4.5vw;
+    }
+    .text-btn {
+        font-weight: 350;
+        font-size: 4vw;
+    }
+
 }
 
 /* Estilos para telas grandes (Desktops e laptops) */
 @media (min-width: 769px) and (max-width: 1024px) {
     /* Estilos específicos para telas grandes */
-    /* .card {
-        width: 20vh;
+    .card {
+        width: 50vh;
         min-height: 60vh;
-        margin: 20%;
     }
     .title-card {
-        font-size: 6.5vw;
-        font-weight: 400;
+        font-size: 4vw;
+        font-weight: 350;
     }
     .subtitle-card {
-        font-weight: 250;
-        font-size: 7.5vw;
+        font-weight: 200;
+        font-size: 3vw;
     }
     .text {
         font-weight: 350;
-        font-size: 10vw;
-    } */
+        font-size: 3vw;
+    }
+    .text-btn {
+        font-weight: 350;
+        font-size: 2.5vw;
+    }
 }
 
-/* Estilos para telas extra grandes (Desktops grandes e monitores de alta resolução) */
-@media (min-width: 1025px) {
-    /* Estilos específicos para telas extra grandes */
-}
-  
-  /* Estilos gerais para o layout do template (Desktop padrão) */
-  /* Esses estilos serão aplicados em todas as telas, incluindo desktops */
   
   /* colors: #002F40 */
