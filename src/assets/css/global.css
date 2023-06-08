@@ -47,7 +47,7 @@
     appearance: none;
     background-color: transparent;
     border: 0.12em solid #F7F7F7;
-    border-radius: 0.9375em;
+    border-radius: 10px;
     box-sizing: border-box;
     color: #F7F7F7;
     cursor: pointer;
@@ -64,7 +64,7 @@
    }
    .button:hover {
     color: #002F40;
-    background-color: #b1b1b1;
+    background-color: #F7F7F7;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
    }
