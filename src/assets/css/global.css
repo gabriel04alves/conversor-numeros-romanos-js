@@ -44,21 +44,12 @@
     font-size: 1.2vw;
 }
 .button {
-    appearance: none;
     background-color: transparent;
     border: 0.12em solid #F7F7F7;
     border-radius: 10px;
-    box-sizing: border-box;
     color: #F7F7F7;
-    cursor: pointer;
-    display: inline-block;
     text-align: center;
-    text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    will-change: transform;
     font-size: 1vw;
     font-weight: 400;
    }
@@ -94,16 +85,13 @@
     font-weight: 300;
 }
 
-/* Estilos para telas pequenas (Smartphones) */
+/* Estilos para telas pequenas */
 @media (max-width: 480px) {
-    /* Estilos específicos para telas pequenas */
     .title {
-        color: #002F40;
         text-align: center;
         font-size: 7vw;
     }
     .subtitle {
-        color: #52b0cf;
         font-weight: 310;
         text-align: center;
         font-size: 5.5vw;
@@ -130,16 +118,13 @@
     }
 }
   
-/* Estilos para telas médias (Tablets e dispositivos com largura intermediária) */
+/* Estilos para telas médias */
 @media (min-width: 481px) and (max-width: 768px) {
-    /* Estilos específicos para telas médias */
     .title {
-        color: #002F40;
         text-align: center;
         font-size: 7vw;
     }
     .subtitle {
-        color: #52b0cf;
         font-weight: 310;
         text-align: center;
         font-size: 5.5vw;
@@ -167,9 +152,8 @@
 
 }
 
-/* Estilos para telas grandes (Desktops e laptops) */
+/* Estilos para telas grandes */
 @media (min-width: 769px) and (max-width: 1024px) {
-    /* Estilos específicos para telas grandes */
     .card {
         width: 50vh;
         min-height: 60vh;
@@ -191,6 +175,3 @@
         font-size: 2.5vw;
     }
 }
-
-  
-  /* colors: #002F40 */
